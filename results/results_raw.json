@@ -1,0 +1,434 @@
+{
+  "exp1": {
+    "metadata": {
+      "start_date": "1990-01-02",
+      "end_date": "2022-12-28",
+      "n_observations": 8313,
+      "n_assets": 20,
+      "asset_tickers": [
+        "AAPL",
+        "AMD",
+        "BAC",
+        "BBY",
+        "CVX",
+        "GE",
+        "HD",
+        "JNJ",
+        "JPM",
+        "KO",
+        "LLY",
+        "MRK",
+        "MSFT",
+        "PEP",
+        "PFE",
+        "PG",
+        "RRC",
+        "UNH",
+        "WMT",
+        "XOM"
+      ],
+      "aapl_present": true,
+      "skfolio_version": "0.6.0",
+      "train_start": "1990-01-03",
+      "train_end": "2016-05-20",
+      "test_start": "2016-05-23",
+      "test_end": "2022-12-28",
+      "n_train": 6649,
+      "n_test": 1663
+    },
+    "validation": {
+      "frontier_size": 100,
+      "frontier_size_ok": true,
+      "budget_constraint_ok": true,
+      "max_weight_sum": 1.0000000000000049,
+      "min_weight_sum": 0.9999999999999996,
+      "aapl_max_weight_observed": 0.06872948293716848,
+      "aapl_constraint_ok": true
+    },
+    "dominance": {
+      "train_mean_return_avg": 0.1911480605418609,
+      "test_mean_return_avg": 0.19702364735099603,
+      "train_vol_avg": 0.18945078276391683,
+      "test_vol_avg": 0.19237009996214438,
+      "train_sharpe_avg": 1.0087642524412217,
+      "test_sharpe_avg": 1.0241222288145646,
+      "train_vol_range": [
+        0.18521750615979762,
+        0.1942259704967948
+      ],
+      "test_vol_range": [
+        0.18847300607123382,
+        0.19658869134627474
+      ],
+      "pct_frontier_train_above_test": 0.24,
+      "vol_underestimation": true,
+      "train_dominates_test": true,
+      "mean_return_diff": -0.0005316890977198313
+    },
+    "train_frontier_summary": {
+      "mean_return_range": [
+        0.182031082483792,
+        0.2002659036423191
+      ],
+      "vol_range": [
+        0.18521750615979762,
+        0.1942259704967948
+      ]
+    },
+    "test_frontier_summary": {
+      "mean_return_range": [
+        0.1910298952125505,
+        0.20301764806748324
+      ],
+      "vol_range": [
+        0.18847300607123382,
+        0.19658869134627474
+      ]
+    },
+    "plot_path": "results/exp1_efficient_frontier.png"
+  },
+  "exp2": {
+    "metadata": {
+      "asset_start": "1990-01-02",
+      "asset_end": "2022-12-28",
+      "n_assets": 20,
+      "asset_tickers": [
+        "AAPL",
+        "AMD",
+        "BAC",
+        "BBY",
+        "CVX",
+        "GE",
+        "HD",
+        "JNJ",
+        "JPM",
+        "KO",
+        "LLY",
+        "MRK",
+        "MSFT",
+        "PEP",
+        "PFE",
+        "PG",
+        "RRC",
+        "UNH",
+        "WMT",
+        "XOM"
+      ],
+      "n_asset_obs": 8313,
+      "factor_start": "2014-01-02",
+      "factor_end": "2022-12-28",
+      "n_factors": 5,
+      "factor_names": [
+        "MTUM",
+        "QUAL",
+        "SIZE",
+        "USMV",
+        "VLUE"
+      ],
+      "n_factor_obs": 2264,
+      "overlap_start": "2014-01-03",
+      "overlap_end": "2022-12-28",
+      "n_overlap_obs": 2263,
+      "n_train": 1810,
+      "n_test": 453,
+      "train_start": "2014-01-03",
+      "train_end": "2021-03-12",
+      "test_start": "2021-03-15",
+      "test_end": "2022-12-28",
+      "skfolio_version": "0.6.0",
+      "aapl_present": true
+    },
+    "validation": {
+      "n_portfolios": 1,
+      "budget_constraint_ok": true,
+      "max_weight_sum": 1.0,
+      "min_weight_sum": 1.0,
+      "aapl_max_weight_observed": 0.04905621568486937,
+      "aapl_constraint_ok": true
+    },
+    "train_summary": [
+      {
+        "metric": "annualized_mean",
+        "value": 0.16279501094627988
+      },
+      {
+        "metric": "annualized_std",
+        "value": 0.17881808734192292
+      },
+      {
+        "metric": "annualized_sharpe_ratio",
+        "value": 0.9103945432264641
+      }
+    ],
+    "test_summary": [
+      {
+        "metric": "annualized_mean",
+        "value": 0.1709485142232984
+      },
+      {
+        "metric": "annualized_std",
+        "value": 0.16662595101776487
+      },
+      {
+        "metric": "annualized_sharpe_ratio",
+        "value": 1.02594171663616
+      }
+    ],
+    "plot_path": "results/exp2_factor_weights.png",
+    "fit_successful": true
+  },
+  "exp3": {
+    "metadata": {
+      "full_start": "1990-01-03",
+      "full_end": "2022-12-28",
+      "n_full_obs": 8312,
+      "n_assets": 20,
+      "asset_tickers": [
+        "AAPL",
+        "AMD",
+        "BAC",
+        "BBY",
+        "CVX",
+        "GE",
+        "HD",
+        "JNJ",
+        "JPM",
+        "KO",
+        "LLY",
+        "MRK",
+        "MSFT",
+        "PEP",
+        "PFE",
+        "PG",
+        "RRC",
+        "UNH",
+        "WMT",
+        "XOM"
+      ],
+      "skfolio_version": "0.6.0",
+      "use_outer_split": true,
+      "wf_sample": "outer_test_split",
+      "wf_start": "2016-05-23",
+      "wf_end": "2022-12-28",
+      "n_wf_obs": 1663
+    },
+    "fold_validation": {
+      "n_folds": 23,
+      "all_no_leakage": true
+    },
+    "stacking_metrics": {
+      "annualized_sharpe": 0.6423712406869947,
+      "annualized_mean": 0.11377568812905246,
+      "annualized_std": 0.17711827822082002,
+      "n_observations": 1380
+    },
+    "benchmark_metrics": {
+      "annualized_sharpe": 0.9515989238379954,
+      "annualized_mean": 0.19429777777521243,
+      "annualized_std": 0.2041803252483402,
+      "n_observations": 1380
+    },
+    "population_summary": {
+      "108356671424368": {
+        "Mean": "0.045%",
+        "Annualized Mean": "11.38%",
+        "Variance": "0.012%",
+        "Annualized Variance": "3.14%",
+        "Semi-Variance": "0.0065%",
+        "Annualized Semi-Variance": "1.64%",
+        "Standard Deviation": "1.12%",
+        "Annualized Standard Deviation": "17.71%",
+        "Semi-Deviation": "0.81%",
+        "Annualized Semi-Deviation": "12.83%",
+        "Mean Absolute Deviation": "0.68%",
+        "CVaR at 95%": "2.69%",
+        "EVaR at 95%": "5.58%",
+        "Worst Realization": "9.97%",
+        "CDaR at 95%": "14.64%",
+        "MAX Drawdown": "29.91%",
+        "Average Drawdown": "3.98%",
+        "EDaR at 95%": "19.88%",
+        "First Lower Partial Moment": "0.34%",
+        "Ulcer Index": "0.058",
+        "Gini Mean Difference": "1.04%",
+        "Value at Risk at 95%": "1.62%",
+        "Drawdown at Risk at 95%": "11.65%",
+        "Entropic Risk Measure at 95%": "3.00",
+        "Fourth Central Moment": "0.000032%",
+        "Fourth Lower Partial Moment": "0.000017%",
+        "Skew": "-14.71%",
+        "Kurtosis": "2054.60%",
+        "Sharpe Ratio": "0.040",
+        "Annualized Sharpe Ratio": "0.64",
+        "Sortino Ratio": "0.056",
+        "Annualized Sortino Ratio": "0.89",
+        "Mean Absolute Deviation Ratio": "0.066",
+        "First Lower Partial Moment Ratio": "0.13",
+        "Value at Risk Ratio at 95%": "0.028",
+        "CVaR Ratio at 95%": "0.017",
+        "Entropic Risk Measure Ratio at 95%": "0.00015",
+        "EVaR Ratio at 95%": "0.0081",
+        "Worst Realization Ratio": "0.0045",
+        "Drawdown at Risk Ratio at 95%": "0.0039",
+        "CDaR Ratio at 95%": "0.0031",
+        "Calmar Ratio": "0.0015",
+        "Average Drawdown Ratio": "0.011",
+        "EDaR Ratio at 95%": "0.0023",
+        "Ulcer Index Ratio": "0.0077",
+        "Gini Mean Difference Ratio": "0.043",
+        "Portfolios Number": "23",
+        "Avg nb of Assets per Portfolio": "20.0"
+      },
+      "108356672180560": {
+        "Mean": "0.077%",
+        "Annualized Mean": "19.43%",
+        "Variance": "0.017%",
+        "Annualized Variance": "4.17%",
+        "Semi-Variance": "0.0086%",
+        "Annualized Semi-Variance": "2.17%",
+        "Standard Deviation": "1.29%",
+        "Annualized Standard Deviation": "20.42%",
+        "Semi-Deviation": "0.93%",
+        "Annualized Semi-Deviation": "14.74%",
+        "Mean Absolute Deviation": "0.81%",
+        "CVaR at 95%": "3.10%",
+        "EVaR at 95%": "6.00%",
+        "Worst Realization": "10.77%",
+        "CDaR at 95%": "16.22%",
+        "MAX Drawdown": "34.70%",
+        "Average Drawdown": "3.26%",
+        "EDaR at 95%": "22.67%",
+        "First Lower Partial Moment": "0.40%",
+        "Ulcer Index": "0.054",
+        "Gini Mean Difference": "1.23%",
+        "Value at Risk at 95%": "1.82%",
+        "Drawdown at Risk at 95%": "11.20%",
+        "Entropic Risk Measure at 95%": "3.00",
+        "Fourth Central Moment": "0.000051%",
+        "Fourth Lower Partial Moment": "0.000024%",
+        "Skew": "-3.22%",
+        "Kurtosis": "1861.33%",
+        "Sharpe Ratio": "0.060",
+        "Annualized Sharpe Ratio": "0.95",
+        "Sortino Ratio": "0.083",
+        "Annualized Sortino Ratio": "1.32",
+        "Mean Absolute Deviation Ratio": "0.096",
+        "First Lower Partial Moment Ratio": "0.19",
+        "Value at Risk Ratio at 95%": "0.042",
+        "CVaR Ratio at 95%": "0.025",
+        "Entropic Risk Measure Ratio at 95%": "0.00026",
+        "EVaR Ratio at 95%": "0.013",
+        "Worst Realization Ratio": "0.0072",
+        "Drawdown at Risk Ratio at 95%": "0.0069",
+        "CDaR Ratio at 95%": "0.0048",
+        "Calmar Ratio": "0.0022",
+        "Average Drawdown Ratio": "0.024",
+        "EDaR Ratio at 95%": "0.0034",
+        "Ulcer Index Ratio": "0.014",
+        "Gini Mean Difference Ratio": "0.063",
+        "Portfolios Number": "23",
+        "Avg nb of Assets per Portfolio": "20.0"
+      }
+    },
+    "plot_path": "results/exp3_walk_forward_cumulative.png"
+  },
+  "exp4": {
+    "metadata": {
+      "start_date": "1990-01-03",
+      "end_date": "2022-12-28",
+      "n_observations": 8312,
+      "n_assets": 20,
+      "asset_tickers": [
+        "AAPL",
+        "AMD",
+        "BAC",
+        "BBY",
+        "CVX",
+        "GE",
+        "HD",
+        "JNJ",
+        "JPM",
+        "KO",
+        "LLY",
+        "MRK",
+        "MSFT",
+        "PEP",
+        "PFE",
+        "PG",
+        "RRC",
+        "UNH",
+        "WMT",
+        "XOM"
+      ],
+      "skfolio_version": "0.6.0"
+    },
+    "multi_copula_params": {
+      "df": 5.626089405168519,
+      "rho": [
+        0.3231264776014862,
+        0.21266932719389128,
+        0.3167307270598766
+      ],
+      "dim": 3,
+      "tickers": [
+        "AAPL",
+        "JPM",
+        "LLY"
+      ]
+    },
+    "bivariate_copula_params": {
+      "df": 5.130140530352414,
+      "rho": 0.32547928454115943
+    },
+    "n_historical": 8312,
+    "n_synthetic": 8312,
+    "dependence_quality": {
+      "correlation_comparison": [
+        {
+          "pair": "AAPL-JPM",
+          "hist_corr": 0.2938455572816995,
+          "synth_corr": 0.3700498446649997,
+          "abs_diff": 0.0762042873833002
+        },
+        {
+          "pair": "AAPL-LLY",
+          "hist_corr": 0.1786379776685964,
+          "synth_corr": 0.22185472608534676,
+          "abs_diff": 0.043216748416750356
+        },
+        {
+          "pair": "JPM-LLY",
+          "hist_corr": 0.29591263680452373,
+          "synth_corr": 0.31751797497497364,
+          "abs_diff": 0.021605338170449906
+        }
+      ],
+      "mean_abs_corr_diff": 0.04700879132350016,
+      "hist_5th_percentile": {
+        "AAPL": -0.03955443729375027,
+        "JPM": -0.03354231116947077,
+        "LLY": -0.02550718246635304
+      },
+      "synth_5th_percentile": {
+        "AAPL": -0.03858115718185107,
+        "JPM": -0.031586676235644845,
+        "LLY": -0.025483827970788867
+      },
+      "hist_kurtosis": {
+        "AAPL": 23.319425396019057,
+        "JPM": 12.442877913542583,
+        "LLY": 15.679121911746753
+      },
+      "synth_kurtosis": {
+        "AAPL": 17.810897387081155,
+        "JPM": 12.655947868126074,
+        "LLY": 10.339114158152908
+      }
+    },
+    "plots": {
+      "hist_vs_synth": "results/exp4_historical_vs_synthetic.png",
+      "bivariate_density": "results/exp4_bivariate_copula_density.png",
+      "aapl_jpm_scatter": "results/exp4_aapl_jpm_scatter.png"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+,108356671424368,108356672180560
+Mean,0.045%,0.077%
+Annualized Mean,11.38%,19.43%
+Variance,0.012%,0.017%
+Annualized Variance,3.14%,4.17%
+Semi-Variance,0.0065%,0.0086%
+Annualized Semi-Variance,1.64%,2.17%
+Standard Deviation,1.12%,1.29%
+Annualized Standard Deviation,17.71%,20.42%
+Semi-Deviation,0.81%,0.93%
+Annualized Semi-Deviation,12.83%,14.74%
+Mean Absolute Deviation,0.68%,0.81%
+CVaR at 95%,2.69%,3.10%
+EVaR at 95%,5.58%,6.00%
+Worst Realization,9.97%,10.77%
+CDaR at 95%,14.64%,16.22%
+MAX Drawdown,29.91%,34.70%
+Average Drawdown,3.98%,3.26%
+EDaR at 95%,19.88%,22.67%
+First Lower Partial Moment,0.34%,0.40%
+Ulcer Index,0.058,0.054
+Gini Mean Difference,1.04%,1.23%
+Value at Risk at 95%,1.62%,1.82%
+Drawdown at Risk at 95%,11.65%,11.20%
+Entropic Risk Measure at 95%,3.00,3.00
+Fourth Central Moment,0.000032%,0.000051%
+Fourth Lower Partial Moment,0.000017%,0.000024%
+Skew,-14.71%,-3.22%
+Kurtosis,2054.60%,1861.33%
+Sharpe Ratio,0.040,0.060
+Annualized Sharpe Ratio,0.64,0.95
+Sortino Ratio,0.056,0.083
+Annualized Sortino Ratio,0.89,1.32
+Mean Absolute Deviation Ratio,0.066,0.096
+First Lower Partial Moment Ratio,0.13,0.19
+Value at Risk Ratio at 95%,0.028,0.042
+CVaR Ratio at 95%,0.017,0.025
+Entropic Risk Measure Ratio at 95%,0.00015,0.00026
+EVaR Ratio at 95%,0.0081,0.013
+Worst Realization Ratio,0.0045,0.0072
+Drawdown at Risk Ratio at 95%,0.0039,0.0069
+CDaR Ratio at 95%,0.0031,0.0048
+Calmar Ratio,0.0015,0.0022
+Average Drawdown Ratio,0.011,0.024
+EDaR Ratio at 95%,0.0023,0.0034
+Ulcer Index Ratio,0.0077,0.014
+Gini Mean Difference Ratio,0.043,0.063
+Portfolios Number,23,23
+Avg nb of Assets per Portfolio,20.0,20.0
